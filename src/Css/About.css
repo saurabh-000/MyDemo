@@ -1,0 +1,37 @@
+#about figure {
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 15px;
+}
+
+#about figure span {
+  float: left;
+  margin-left: -15px;
+  padding: 15px 20px;
+  position: relative;
+  top: 20px;
+}
+
+#about figure span i {
+  background: #097e53;
+  border-radius: 15px;
+  color: #ffffff;
+  font-size: 40px;
+  line-height: 60px;
+  text-align: center;
+}
+
+.row {
+  margin-top: 50px;
+}
+
+.entry-form {
+  background-color: #5f7a61;
+  margin-top: 60px;
+  text-align: center;
+}
+
+.about-info {
+  background-color: #d5eebb;
+  padding: 60px;
+}

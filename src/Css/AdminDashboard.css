@@ -1,0 +1,29 @@
+.flex{
+    
+    width: 100vw;
+    height: 150px;
+    display: flex;
+    justify-content: space-around;
+}
+.outer{
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+.outer h2{
+    width: 100%;
+
+    text-align: center;
+}
+h1{
+
+    width: 100%;
+    text-align: center;
+    border-bottom: 2px solid gray;
+}
+
+.margin{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    color: white;
+}
+
