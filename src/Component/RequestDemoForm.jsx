@@ -1,18 +1,16 @@
-import React from "react";
+import React ,{useState}from "react";
 import { TextField } from '@material-ui/core';
 import { Button } from '@material-ui/core';
 import { mapValues } from 'lodash';
 import { makeStyles } from '@material-ui/core';
-import React, {useState, useEffect } from 'react'
-import PageHeader from "../../components/PageHeader";
-import RequestDemoForm from "./RequestDemoForm";
+
 import  PeopleOutlineTwoToneIcon  from "@material-ui/icons/PeopleOutlineTwoTone";
 import "../Css/AdminDashboard.css"
 import Dashboard, { DashboardCarousel } from "./DashboardNavBar";
 import { Container } from '@material-ui/core';
 
 const RequestDemoForm = () => {
-    const intialFValues= {
+    const initialFValues= {
     demoId:'',
     parentId: '',
     subjectId: '',
@@ -85,4 +83,4 @@ const RequestDemoForm = () => {
         </form>
     );
 }
-export default function UpdateDemoForm();
+export default RequestDemoForm;

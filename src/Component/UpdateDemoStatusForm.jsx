@@ -6,7 +6,7 @@ import React, {useState, useEffect } from 'react'
 import { Container } from '@material-ui/core';
 
 
-const intialFValues= {
+const initialFValues= {
     id:'',
     FirstName: '',
     LastName: '',

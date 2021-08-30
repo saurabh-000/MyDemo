@@ -49,7 +49,7 @@ const App =()=>
          <Route exact path="/admin/updatedemostatus" component={UpdateDemoStatus}/>
          <Route exact path="/admin/updatedemostatusform" component={UpdateDemoStatusForm}/>
          <Route exact path="/admin/getdemobytutorid" component={GetDemoByTutorId}/>
-         <Route exact path="/admin/requestdemo" component={RequestDemo}/>
+         <Route exact path="/admin/requestdemoform" component={RequestDemoForm}/>
          <Route exact path="/admin/getdemobyparentid" component={GetDemoByParentId}/>
          <Redirect to="/"/> 
          </Switch> 
